@@ -45,3 +45,6 @@ body {
 .instruct{
 	margin: 20px 0 20px 0;
 }
+.form-survey{
+	height: 200px !important;
+}
