@@ -24,6 +24,7 @@ body {
           box-sizing: border-box;
   padding: 10px;
   font-size: 16px;
+  margin: 20px 0 20px 0;
 }
 .form-signin .form-control:focus {
   z-index: 2;
@@ -40,4 +41,7 @@ body {
 }
 .highlight{
 	font-weight: bold;
+}
+.instruct{
+	margin: 20px 0 20px 0;
 }
