@@ -8,10 +8,10 @@ You can simple use this code to create a "Compensate HIT".
 
 The following URL parameters are supported:
 
-- workers **(required)**
+- **workers** (required)
 
   A list of workerId(s) that are allowed to submit this HIT. WorkerIds are separated by comma (,).
-  
+  All unlisted workers will not be able to accept (nor submit) this HIT.
   For example,
   
   ```
