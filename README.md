@@ -4,8 +4,16 @@ As a requester, if something went wrong with your HIT on Amazon Mechanical Turk,
 
 You can simple use this code to create a "Compensate HIT".
 
-# Usage
+## Usage ##
 
-The following parameters are supported:
+The following URL parameters are supported:
 
 - workers **(required)**
+
+  A list of workerId(s) that are allowed to submit this HIT. WorkerIds are separated by comma (,).
+  
+  For example,
+  
+  ```
+  https://your.hit.url.here.html&worker=workerId1,workerId2,workerId3
+  ```
