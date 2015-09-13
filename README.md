@@ -3,7 +3,7 @@
 As a requester, if something went wrong with your HIT on [Amazon Mechanical Turk](https://www.mturk.com/mturk/welcome),
 turkers would ask you to compensate their wasted time and effort. 
 
-You can simple use this code to create an external "Compensate HIT". (Save you sometime!)
+You can simply use this code to create an external "Compensate HIT". (Save you some time!)
 
 ## Usage ##
 
