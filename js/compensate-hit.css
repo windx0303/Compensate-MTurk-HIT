@@ -41,7 +41,13 @@ body {
 }
 .highlight{
 	font-weight: bold;
+	color: blue;
 }
+.highlight-strong{
+	font-weight: bold;
+	color: red;
+}
+
 .instruct{
 	margin: 20px 0 20px 0;
 }
