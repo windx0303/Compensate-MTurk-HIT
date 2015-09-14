@@ -13,8 +13,7 @@ The following URL parameters are supported:
 
   A list of workerId(s) that are allowed to submit this HIT. WorkerIds are separated by commas (,).
   All unlisted workers will not be able to accept (nor submit) this HIT.
-  For example,
   
   ```
-  https://your.hit.url.here.html&worker=workerId1,workerId2,workerId3
+  https://your.hit.url.here.html&workers=workerId1,workerId2,workerId3
   ```
