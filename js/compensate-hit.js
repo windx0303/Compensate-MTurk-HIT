@@ -42,7 +42,7 @@ $(document).ready(function () {
 	        } else {
 	            _allowSubmit = true;
 	        }
-	        $('#compensate-form').attr('value', gup("assignmentId"));
+	        $('#compensate-form-assignmentId').attr('value', gup("assignmentId"));
 	        $("#compensate-form").attr('method', 'POST');
 
 
