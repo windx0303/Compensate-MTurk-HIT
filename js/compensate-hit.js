@@ -6,7 +6,7 @@ $(document).ready(function () {
 		$("body").empty();
 		$("body").css("background", "white");
 		
-		var noteDiv = $("<div>This HIT is for <span class='highlight'>specific workers only</span>.<br><br>Only accept this HIT if you've been contacted by us.</div>");
+		var noteDiv = $("<div>This HIT is for <span class='highlight'>specific workers only</span>.<br><br><span class='highlight'>Only accept this HIT if you've been contacted by us.</span></div>");
 		$(noteDiv).css("margin-left", "auto");
 		$(noteDiv).css("margin-right", "auto");
 		$(noteDiv).css("margin-top", "50px");
@@ -78,11 +78,13 @@ $(document).ready(function () {
         
 	}
 	
+	/*
 	$("#submit-btn").on("click", function(){
 		//$("#comment").val();
 		$("#compensate-form").submit();
 		return false;
 	});
+	*/
 	
 	
 });

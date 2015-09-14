@@ -42,7 +42,7 @@ http://getbootstrap.com/getting-started/#examples
         <h4 class='instruct'><span class='highlight'>For specific workers only.</span> Other workers will be rejected.</h4>
         
         <label for="inputHitId" class="sr-only">Compensated HIT ID</label>
-        <input type="text" id="inputHitId" class="form-control" placeholder="Compensated HIT ID" required="" autofocus="">
+        <input type="text" name="inputHitId" id="inputHitId" class="form-control" placeholder="Compensated HIT ID" required="" autofocus="">
         
         <!--
         <label for="inputHitIdSurvey" class="sr-only">(Optional) How do you think about the HIT</label>
@@ -61,9 +61,9 @@ http://getbootstrap.com/getting-started/#examples
         </div>
          -->
         <label for="comment" class="sr-only">(Optional) Comments</label>
-        <textarea class="form-control" rows="5" id="comment" placeholder="(Optional) Give us some feedback about the compensated HIT"></textarea>
+        <textarea class="form-control" rows="5" id="comment" name="comment" placeholder="(Optional) Give us some feedback about the compensated HIT"></textarea>
         
-        <input id="submit-btn" type="button" class="btn btn-lg btn-primary btn-block" value="Submit"></input>
+        <button type="submit" class="btn btn-lg btn-primary btn-block">Submit</button>
       
       </form>
 
